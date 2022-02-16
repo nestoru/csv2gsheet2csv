@@ -14,7 +14,7 @@ CSV and GSheet ETL through Unix pipes. Pipe CSV into Google Sheets. Pipe/redirec
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone csv2gsheet2csv
+git clone https://github.com/nestoru/csv2gsheet2csv.git
 cd csv2gsheet2csv
 pip install virtualenv
 python -m venv env
