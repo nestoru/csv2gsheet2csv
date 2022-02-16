@@ -9,9 +9,9 @@
 import argparse
 import csv
 import gspread
-import Path from pathlib
+from pathlib import Path
 import sys
-import ServiceAccountCredentials from oauth2client.service_account
+from oauth2client.service_account import ServiceAccountCredentials
 
 def gsheet2csv(credentials: Path, sheet_url: str, tab_name: str):
 
