@@ -3,9 +3,19 @@ CSV and GSheet ETL through Unix pipes. Pipe CSV into Google Sheets. Pipe/redirec
 
 ## Preconditions
 * python3
-* pip3
 * python-dev
 * python-venv
+* pip3
+```
+# install python3 and make it the default
+sudo apt-get install -y python3
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+python --version
+# install python3 dev and venv packages to use pip effectively in virtual environments
+sudo apt-get install -y libpython3-dev python3-venv
+# install pip3
+sudo apt install -y python3-pip
+```
 * service account in GCP
 * a json key for the service account in GCP
 * read/write access (for the GCP service account) to the GDrive Google sheet
