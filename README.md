@@ -1,3 +1,5 @@
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=58F9TDDRBND4L)
+
 # CSV to GSheet to CSV
 CSV and GSheet ETL through Unix pipes. Pipe CSV into Google Sheets. Pipe/redirect from Google Sheets into CSV.
 
